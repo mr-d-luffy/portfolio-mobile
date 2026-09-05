@@ -141,9 +141,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/htm.png",
+      image: "/htm.webp",
       video:
-        "/htm.png",
+        "/htm.webp",
     },
     {
       title: "Urban Infrasctustrure Cascade Simulator",
@@ -168,8 +168,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/htm.png",
-      video:"/htm.png",
+      image: "/htm.webp",
+      video:"/htm.webp",
     }
   ],
   hackathons: [
