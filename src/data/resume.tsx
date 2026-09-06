@@ -18,7 +18,7 @@ export const DATA = {
   location: "Nagpur, Maharashtra IN",
   locationLink: "https://www.google.com/maps/place/nagpur",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Instagrame.",
+    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Instagram.",
   summary:
     "As a dedicated Full Stack Developer, I’ve been sharpening my skills through hands‑on projects and competitive programming. In March 2025, I won the Code Hack competition at TechTrix 2K25, a national‑level technical event, and I’m proud to have been ranked as a Top Campus Ambassador for IIT Bombay. Beyond that, I’ve actively participated in hackathons, contributed to open‑source projects, and built full‑stack applications to solve real‑world problems. I’m now eager to channel this experience into building impactful, scalable digital products.",
   avatarUrl: "/proImage.jpg",
@@ -34,11 +34,11 @@ export const DATA = {
     { name: "Kubernetes", icon: Kubernetes },
     { name: "Java", icon: Java },
     { name: "C++", icon: Csharp },
-    { name: "Flutter"},
-    { name: "Dart"},
-    { name: "FastAPI"},
-    { name: "Django"},
-    { name: "MySQL"},
+    { name: "Flutter" },
+    { name: "Dart" },
+    { name: "FastAPI" },
+    { name: "Django" },
+    { name: "MySQL" },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -97,7 +97,7 @@ export const DATA = {
       end: "Dec 2026",
       description:
         "As a Campus Ambassador for IIT Bombay Techfest, I established a structured outreach and onboarding protocol across my campus network, creating standardized resources and communication frameworks to streamline participant engagement. I streamlined operational workflows by coordinating multiple volunteer teams simultaneously and standardizing reporting pipelines, ensuring seamless event execution across various departments. I also architected a comprehensive data tracking system to monitor engagement metrics, participant feedback, and historical event trends, leveraging these insights to refine outreach strategies and boost overall participation. Additionally, I orchestrated a high-impact digital engagement drive utilizing social media and community platforms, successfully onboarding 200+ participants and significantly expanding Techfest's campus footprint—earning me the distinction of a Top Ranker among all campus ambassadors nationwide.",
-    }
+    },
   ],
   education: [
     {
@@ -142,8 +142,7 @@ export const DATA = {
         },
       ],
       image: "/htm.webp",
-      video:
-        "/htm.webp",
+      video: "/htm.webp",
     },
     {
       title: "Urban Infrasctustrure Cascade Simulator",
@@ -169,20 +168,49 @@ export const DATA = {
         },
       ],
       image: "/htm.webp",
-      video:"/htm.webp",
-    }
+      video: "/htm.webp",
+    },
   ],
   hackathons: [
     {
       title: "Code Forge",
       dates: "August 2026",
       location: "Nagpur, Maharastra",
-      description:
-        "",
-      image:
-        "https://content.reskilll.com/IyHGjbTh.png",
+      description: "At GH Raisoni Collage Of Engineering",
+      image: "https://content.reskilll.com/IyHGjbTh.png",
       mlh: "https://content.reskilll.com/IyHGjbTh.png",
       links: [],
-    }
+    },
+    {
+      title: "TechXPlore",
+      dates: "August 2026",
+      location: "Nagpur, Maharastra",
+      description: "At Tulshiram Gaikwad Patil Collage Of Engineering",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBYe8S2Mv3BWkCYRo2jxAJuM6UpeaBqB2d-j1AKKNKIMmb9iWBbvqWOA&s=10",
+      mlh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBYe8S2Mv3BWkCYRo2jxAJuM6UpeaBqB2d-j1AKKNKIMmb9iWBbvqWOA&s=10",
+      links: [],
+    },
+    {
+      title: "TechTrix 2k25",
+      dates: "March 2025",
+      location: "Nagpur, Maharastra",
+      description:
+        "1st Rank In Coding & Cryptography Challenge at JL Priyadarshani Collage Of Engineering.",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmqrzyujn5lvKSXATQv0dOsUSavKYIaUqbGfSMzPg1Q&s",
+      mlh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmqrzyujn5lvKSXATQv0dOsUSavKYIaUqbGfSMzPg1Q&s",
+      links: [],
+    },
+    {
+      title: "Campus Innovate Hackethon",
+      dates: "March 2025",
+      location: "Nagpur, Maharastra",
+      description: "At GH Raisoni Collage Of Engineering",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjhYYrwE_n7LyuF_0qvWGybRSbStBgBT6PQK22knS-5A&s=10",
+      mlh: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjhYYrwE_n7LyuF_0qvWGybRSbStBgBT6PQK22knS-5A&s=10",
+      links: [],
+    },
   ],
 } as const;

@@ -19,25 +19,25 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/mr-d-luffy/portfolio
+   git clone https://github.com/mr-d-luffy/portfolio-mobile
    ```
 
 2. Move to the cloned directory
 
    ```bash
-   cd portfolio
+   cd portfolio-mobile
    ```
 
 3. Install dependencies:
 
    ```bash
-   pnpm install
+   npm install
    ```
 
 4. Start the local Server:
 
    ```bash
-   pnpm dev
+   npm dev
    ```
 
 5. Open the [Config file](./src/data/resume.tsx) and make changes
