@@ -14,7 +14,7 @@ const NeonButton: React.FC<NeonButtonProps> = ({
   return (
     <>
       <button
-        onClick={() => window.open('/docs/CV_Document.pdf')}
+        onClick={() => window.open('/docs/resume.pdf')}
         style={{
           padding: "15px 40px",
           fontSize: "18px",
